@@ -6,7 +6,11 @@ body {
     margin: 0;
     padding: 40px 16px;
     font-family: "Segoe UI", Arial, sans-serif;
-    background: #1b1b24;
+    background-image: url("../images/horror-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: #ececf1;
 }
 

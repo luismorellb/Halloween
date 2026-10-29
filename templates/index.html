@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monsters</title>
+    <title>Monster</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Halloween Monsters</h1>
+        <h1>Mostros de halloween</h1>
 
         <form action="/monster" method="post">
             <label>Nombre <input type="text" name="name" required></label>
             <label>Poder <input type="text" name="power" required></label>
-            <button type="submit">Agregar</button>
+            <button type="submit">Agregar mostro</button>
         </form>
 
         <table>
