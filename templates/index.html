@@ -20,11 +20,13 @@
             <tr>
                 <th>Nombre</th>
                 <th>Poder</th>
+                <th>Raza</th>
             </tr>
             {% for monster in monsters %}
             <tr>
                 <td>{{ monster.name }}</td>
                 <td>{{ monster.power }}</td>
+                <td>{{ monster.race }}</td>
             </tr>
             {% endfor %}
         </table>
