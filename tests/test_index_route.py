@@ -16,5 +16,9 @@ class IndexRouteTests(unittest.TestCase):
         self.assertIn(b'Volar', response.data)
         get_all.assert_called_once_with()
 
+    def test_intentional_failure_for_deployment_gate(self):
+        self.fail('Fallo intencional para verificar que el despliegue se bloquea')
+
+
 if __name__ == '__main__':
     unittest.main()
